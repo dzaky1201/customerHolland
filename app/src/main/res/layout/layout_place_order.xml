@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <fragment
+        android:id="@+id/places_autocomplete_fragment"
+        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txt_address_detail"
+        android:text="Your Address"
+        android:fontFamily="@font/righteous"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:fontFamily="@font/righteous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edt_comment"
+            android:hint="Enter Your Comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:text="Delivery Methode"
+            android:fontFamily="@font/righteous"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/dialog_header_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RadioGroup
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rdi_home_address"
+                android:checked="true"
+                android:fontFamily="@font/righteous"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="@color/dialog_text_color"
+                android:text="Home Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/rdi_other_address"
+                android:fontFamily="@font/righteous"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="@color/dialog_text_color"
+                android:text="Other Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/rdi_ship_this_address"
+                android:fontFamily="@font/righteous"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="@color/dialog_text_color"
+                android:text="Ship To this Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+        <TextView
+            android:text="Payment Method"
+            android:fontFamily="@font/righteous"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/dialog_header_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <RadioGroup
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rdi_cod"
+                android:checked="true"
+                android:fontFamily="@font/righteous"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="@color/dialog_text_color"
+                android:text="Cash On Delivery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/rdi_braintree"
+                android:fontFamily="@font/righteous"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textColor="@color/dialog_text_color"
+                android:text="Braintree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+
+</LinearLayout>

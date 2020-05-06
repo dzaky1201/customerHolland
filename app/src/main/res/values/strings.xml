@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Holand Bakery</string>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Holand Bakery</string>
+    <string name="nav_header_subtitle">growdev.net</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_food_detail">Food Detail</string>
+    <string name="menu_foodlist">FoodList</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_view_order">View Orders</string>
+    <string name="sign_out">Sign Out</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="popular_categories">Popular Categories</string>
+    <string name="menu_menu">Categories</string>
+    <string name="size">Size</string>
+    <string name="add_on">Addon</string>
+    <string name="action_clear_cart">Clear Cart</string>
+    <string name="action_search">Search</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA961qUUYeU2tnBuk4gS1fpiXVjnCFnbcQ</string>
+    <string name="update_info">Update Info</string>
+
+</resources>
